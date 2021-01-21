@@ -30,6 +30,7 @@ public class StreamTest {
 	    // demonstration of sorted method 
 	    List<String> show = 
 	            names.stream().sorted().collect(Collectors.toList()); 
+	    names.stream().sorted().forEach(System.out::print);
 	    System.out.println(show); 
 	  
 	    // create a list of integers 
